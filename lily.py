@@ -120,7 +120,7 @@ if __name__ == "__main__":
     print("Generated files:", lyfile, filename + ".pdf", filename + ".flac")
 
     if options.mplayer:
-        print("Play with mlayer!")
+        print("Play it with mlayer!")
         try:
             proc = Popen(["mplayer", filename + ".flac"], stdout=DEVNULL, stderr=DEVNULL)
             proc.wait()
